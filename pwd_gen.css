@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#disp {
+    width: 94vw;
+    max-width: 350px;
+    height: 50px;
+    font-size: 1.4rem;
+}
+
+#redio-cont {
+    width: 90vw;
+    max-width: 320px;
+    padding: 12px;
+}
+
+.radio {
+    width: 85%;
+}
+.main{
+    align-self: center;
+}
+.container {
+    width: 98vw;
+    max-width: 380px;
+    border-radius: 20px;
+    box-shadow: rgba(43, 54, 73, 0.349) 10px 10px 20px 10px,
+        rgba(41, 57, 68, 0.267) 4px 4px 6px 2px;
+    
+}
+.bg-black {
+    background-color: #06080c;
+}
+
+.bg-blue {
+    background-image: linear-gradient(to right,rgba(43, 40, 190, 0.568),rgba(96, 62, 151, 0.795),rgba(26, 172, 160, 0.822));
+}
+
+#btn:hover {
+    max-width: 650px;
+    transform: scale(1.1);
+    box-shadow: black 5px 5px 20px 3px;
+}
